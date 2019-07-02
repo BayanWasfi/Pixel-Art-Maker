@@ -1,6 +1,7 @@
 * {
   text-align: center;
 }
+/*Here is the body content specification  */
 body {
     background: url("https://images.all-free-download.com/images/graphiclarge/rippled_wall_background_01_hd_pictures_169887.jpg");
     background-position: center;
@@ -9,13 +10,13 @@ body {
     text-align: center;
     /* background-color: #ececec; */
 }
-
+/*Here is the headline 1 content specification  */
 h1 {
     font-family: Monoton;
     font-size: 70px;
     margin: 0.2em;
 }
-
+/*Here is the headline 2 content specification  */
 h2 {
     font-family: Architects Daughter;
     margin: 1em 0 0.25em;
@@ -24,7 +25,7 @@ h2 {
 h2:first-of-type {
     margin-top: 0.5em;
 }
-
+/*Here is the table and rows content specification  */
 table,
 tr,
 td {
@@ -48,14 +49,14 @@ input[type=number] {
     width: 6em;
     border: 1px solid #dcdcdc;
 }
-
+/*Here is the submit button specification  */
 #submit {
   backgruouund-color: dimgray:
   color: white;
   font-family: monospace;
   font-size: 16px;
 }
-
+/*Here is the form specification  */
 form {
   font-style: italic;
   font-size: 19px;
