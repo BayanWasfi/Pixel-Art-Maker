@@ -9,7 +9,7 @@ $(document).ready(function(){
     var rows = $('#inputHeight').val();
     var cols = $('#inputWidth').val();
 
-// Create a table rows and columns based on the user input
+// Create a table rows and columns based on the user input which is restricted between 1 to 100
        for (var i = 1; i <= rows; i++) {
          $('table').append('<tr></tr>');
          var tt = ''
