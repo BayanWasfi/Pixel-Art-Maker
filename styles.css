@@ -61,7 +61,7 @@ form {
   font-style: italic;
   font-size: 19px;
 }
-
+/*Here is the watermark specification  */
 #watermark {
   color: #d0d0d0;
   font-size: 15pt;
