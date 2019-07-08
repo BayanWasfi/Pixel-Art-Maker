@@ -24,6 +24,7 @@ $(document).ready(function(){
        }
        grid.preventDefault();
 
+    // Customizing the color  
        $('#pixelCanvas').on('click', '.square', function() {
          var paint = $('#colorPicker').val();
          $(this).css('background-color', paint);
