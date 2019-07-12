@@ -1,7 +1,7 @@
 $(document).ready(function(){
   // When size is submitted by the user, call makeGrid()
   // Creat makeGrid function to submit an input then clear previous table &
-  // show the new submission, then add a colour
+  // show the new submission, then add a colour.
   $('#sizePicker').submit(function makeGrid(grid) {
     $('table tr').remove();
     // // We define the variable color, height and width inputs
